@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabs</title>
+    <link rel="stylesheet" href="style.css">
+
+
+
+
+
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li data-tab-target="#home">Home</li>
+            <li data-tab-target="#pricing">Pricing</li>
+            <li data-tab-target="#about">About</li>
+        </ul>
+    </nav>
+
+    <div class="tab-content">
+        <div id="home" data-tab-content class="active">
+            <h1>Home</h1>
+            <p>This is home</p>
+        </div>
+
+        <div id="pricing" data-tab-content>
+            <h1>Pricing</h1>
+            <p>This is pricing</p>
+        </div>
+
+        <div id="about" data-tab-content>
+            <h1>About</h1>
+            <p>This is About</p>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
